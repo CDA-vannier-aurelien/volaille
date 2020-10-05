@@ -22,7 +22,7 @@ public abstract class Action implements Comparable<Action> {
 
 	@Override
 	public int compareTo(Action pAction) {
-
+System.out.println("Ca marche");
 		return Integer.compare(this.id, pAction.id);
 	}
 }
